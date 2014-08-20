@@ -1,4 +1,3 @@
-projects
-========
+# CS 212 Lectures
 
-CS 212 Software Development, University of San Francisco
+Repository of project files for CS 212 Software Development.
