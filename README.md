@@ -49,7 +49,7 @@ Initial project files, including input files, expected output files, project spe
 
 1. Use the "Import Projects from Git" feature using the Clone URL for your repository. You will need to enter your GitHub username and password under the "Authentication" settings.
 
-2. Each project will have its own branch. To start, you will need to create a `project1` branch. Right-click your project, select "Team > Switch To... > New Branch" from the popup menu. Enter `project1` as the name, and make sure "Configure upstream for push and pull" is selected. 
+2. Each project will have its own branch. To start, you will need to create a `project1` branch. Right-click your project, select "Team > Switch To... > New Branch" from the popup menu. Enter `project1` as the name (all lowercase with no spaces). 
 
 3. Commit and push your changes. Make sure your changes are showing up in the [correct branch](https://help.github.com/articles/viewing-branches-in-your-repository) in GitHub. You can also make sure this is the [default branch](https://help.github.com/articles/setting-the-default-branch) in your repository settings.
 
