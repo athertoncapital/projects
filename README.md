@@ -43,17 +43,17 @@ Everyone will have a private GitHub repository created by the instructor with th
 fall2014-username-projects
 ```
 
-where `username` is your USF Connect username. 
+where `username` is your USF Connect username.
 
 Initial project files, including input files, expected output files, project specifications, and test files, will be pushed directly to your project repository by the instructor. To setup your Eclipse project with these files, follow these steps:
 
 1. Use the "Import Projects from Git" feature using the Clone URL for your repository. You will need to enter your GitHub username and password under the "Authentication" settings.
 
-2. Each project will have its own branch. To start, you will need to create a `project1` branch. Right-click your project, select "Team > Switch To... > New Branch" from the popup menu. Enter `project1` as the name (all lowercase with no spaces). 
+2. Each project will have its own branch. To start, you will need to create a `project1` branch. Right-click your project, select "Team > Switch To... > New Branch" from the popup menu. Enter `project1` as the name (all lowercase with no spaces).
 
 3. Commit and push your changes. Make sure your changes are showing up in the [correct branch](https://help.github.com/articles/viewing-branches-in-your-repository) in GitHub. You can also make sure this is the [default branch](https://help.github.com/articles/setting-the-default-branch) in your repository settings.
 
-:warning: When you pass code review for a project, you will be instructed to create a branch for the next project. Please do **NOT** create those branches until that time! 
+:warning: When you pass code review for a project, you will be instructed to create a branch for the next project. Please do **NOT** create those branches until that time!
 
 ## Submission ##
 
@@ -107,7 +107,17 @@ Once you have verified your project is properly submitted and passing the necess
 
 To sign up for a code review, please follow these setups:
 
-- Pending
+- Make sure you are passing 100% of the unit tests when running the `project` script from the lab computers.
+
+- In Github, [create a new issue](https://help.github.com/articles/creating-an-issue) titled "Project # Verification" where `#` is the project you want verified.
+
+- Next, [assign the issue](https://help.github.com/articles/assigning-issues-and-pull-requests-to-other-github-users) to the teacher assistant (username `wwchiang`).
+
+- Wait for the issue to be closed by the teacher assistant.
+
+If your project was properly verified, the TA will provide a link to sign up for a code review in the issue comments. Otherwise, you will need to figure out why your project is not passing the unit tests and repeat this process.
+
+:memo: You can see all of the issues that you have created or have been assigned in the [Issues Dashboard](https://github.com/dashboard/issues/) on GitHub.
 
 **:warning: If you sign up for code review but you are not passing the `project` script on the lab computers, your project score will be deducted 5 points.**
 
