@@ -3,8 +3,6 @@ CS 212 Projects
 
 This repository contains the project files for CS 212 Software Development at the University of San Francisco. This includes test files, input files, and expected output files.
 
-:warning: This README is still under construction. :warning:
-
 ## Table of Contents ##
 
 - [Specifications](#specifications)
