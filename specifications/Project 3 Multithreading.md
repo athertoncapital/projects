@@ -1,4 +1,4 @@
-PProject 3 Multithreading
+Project 3 Multithreading
 =================================================
 
 For this project, you will extend your previous project to support multithreading. You must make a thread-safe inverted index, and use a work queue to build and search an inverted index using multiple threads.
