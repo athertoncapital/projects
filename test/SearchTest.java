@@ -70,7 +70,7 @@ public class SearchTest extends ProjectTest {
     @FixMethodOrder(MethodSorters.NAME_ASCENDING)
     public static class OutputTest {
         @Rule
-        public Timeout globalTimeout = Timeout.seconds(30);
+        public Timeout globalTimeout = Timeout.seconds(120);
 
         @Test
         public void test01SearchSimple() {
