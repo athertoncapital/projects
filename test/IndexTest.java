@@ -81,7 +81,7 @@ public class IndexTest extends ProjectTest {
     @FixMethodOrder(MethodSorters.NAME_ASCENDING)
     public static class OutputTest {
         @Rule
-        public Timeout globalTimeout = Timeout.seconds(30);
+        public Timeout globalTimeout = Timeout.seconds(60);
 
         @Test
         public void test01IndexSimple() {
