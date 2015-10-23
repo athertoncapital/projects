@@ -45,7 +45,7 @@ To rank your search results, use the following criteria:
 
 - **Location:** For locations that have the same frequency and position, the results should be sorted by path in case-insensitive order. For example, suppose `a.txt` and `b.txt` both have the same number of partial matches and positions. If `a.txt` and `b.txt` are in the same directory, then `a.txt` should appear in the results before `b.txt`.
 
-You can use the [`String.CASE_INSENSITIVE_ORDER`](http://docs.oracle.com/javase/8/docs/api/java/lang/String.html#CASE_INSENSITIVE_ORDER) comparator for comparing absolute paths and [`Integer.compare(int, int)`](http://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html#compare(int, int)) or [`Integer.compareTo(Integer)`](http://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html#compareTo(java.lang.Integer)) to compare frequencies and positions.
+You can use the [`String.CASE_INSENSITIVE_ORDER`](http://docs.oracle.com/javase/8/docs/api/java/lang/String.html#CASE_INSENSITIVE_ORDER) comparator for comparing <strike>absolute</strike> paths and [`Integer.compare(int, int)`](http://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html#compare(int, int)) or [`Integer.compareTo(Integer)`](http://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html#compareTo(java.lang.Integer)) to compare frequencies and positions.
 
 ### Multiple Word Queries ###
 
