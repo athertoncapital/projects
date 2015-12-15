@@ -174,8 +174,9 @@ public class CrawlTest extends ProjectTest {
 
         @Test
         public void test01IndexHTMLHelp() {
-            String test = "index-web-htmlhelp.json";
-            String link = "http://htmlhelp.com/reference/html40/olist.html";
+            String test = "index-web-htmlhelp2.json";
+//            String link = "http://htmlhelp.com/reference/html40/olist.html";
+            String link = "http://www.cs.usfca.edu/~cs212/htmlhelp/olist.html";
 
             String[] args = {
                     SEED_FLAG, link,
@@ -188,8 +189,9 @@ public class CrawlTest extends ProjectTest {
 
         @Test
         public void test02SearchHTMLHelp() {
-            String test = "search-web-htmlhelp.json";
-            String link = "http://htmlhelp.com/reference/html40/olist.html";
+            String test = "search-web-htmlhelp2.json";
+//            String link = "http://htmlhelp.com/reference/html40/olist.html";
+            String link = "http://www.cs.usfca.edu/~cs212/htmlhelp/olist.html";
 
             String[] args = {
                     SEED_FLAG, link,
